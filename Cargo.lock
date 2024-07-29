@@ -98,7 +98,7 @@ dependencies = [
  "half",
  "solana-program",
  "toml_datetime",
- "winnow",
+ "winnow 0.6.16",
 ]
 
 [[package]]
@@ -1291,7 +1291,7 @@ dependencies = [
  "solana-program",
  "spl-account-compression",
  "toml_datetime",
- "winnow",
+ "winnow 0.6.16",
 ]
 
 [[package]]
@@ -3531,7 +3531,7 @@ checksum = "239410c8609e8125456927e6707163a3b1fdb40561e4b803bc041f466ccfdc13"
 dependencies = [
  "indexmap",
  "toml_datetime",
- "winnow",
+ "winnow 0.4.11",
 ]
 
 [[package]]
@@ -3790,9 +3790,18 @@ checksum = "ed94fce61571a4006852b7389a063ab983c02eb1bb37b47f8272ce92d06d9538"
 
 [[package]]
 name = "winnow"
-version = "0.4.1"
+version = "0.4.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae8970b36c66498d8ff1d66685dc86b91b29db0c7739899012f63a63814b4b28"
+checksum = "656953b22bcbfb1ec8179d60734981d1904494ecc91f8a3f0ee5c7389bb8eb4b"
+dependencies = [
+ "memchr",
+]
+
+[[package]]
+name = "winnow"
+version = "0.6.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b480ae9340fc261e6be3e95a1ba86d54ae3f9171132a73ce8d4bbaf68339507c"
 dependencies = [
  "memchr",
 ]
